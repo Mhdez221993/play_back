@@ -20,12 +20,12 @@ app.post('/login', (req, res) => {
 
   spotifyApi.authorizationCodeGrant(code)
     .then((data) => {
-      const {expires_in, refresh_token, access_token } = data.body
+      const {access_token, expires_in, refresh_token} = data.body
 
       res.json({
-        access_token,
-        refresh_token,
-        expires_in,
+         access_token,
+         expires_in,
+         refresh_token,
       })
     })
     .catch(err => {
