@@ -1,0 +1,38 @@
+{
+  "editor.tokenColorCustomizations": {
+    "textMateRules": [
+      {
+        "scope": [
+          "comment"
+        ],
+        "settings": {
+          "fontStyle": "italic"
+        }
+      },
+      {
+        "scope": "keyword.other.dotenv",
+        "settings": {
+          "foreground": "#FF000000"
+        }
+      },
+      {
+        "scope": "googletest.failed",
+        "settings": {
+          "foreground": "#f00"
+        }
+      },
+      {
+        "scope": "googletest.passed",
+        "settings": {
+          "foreground": "#0f0"
+        }
+      },
+      {
+        "scope": "googletest.run",
+        "settings": {
+          "foreground": "#0f0"
+        }
+      }
+    ]
+  }
+}
