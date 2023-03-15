@@ -8,7 +8,7 @@ If the song has lyrics available, the app will display them so you can sing alon
 
 The app is designed to be user-friendly and intuitive, with a clean and modern interface that is easy to navigate
 
-![api]()
+![play_back](https://user-images.githubusercontent.com/67757001/225370907-ac3c9f41-b758-4626-9424-6f5332383fcd.PNG)
 
 
 ## Built With
